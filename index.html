@@ -404,15 +404,17 @@ var pantalla_salir = {
     delay_after: 0
 };
 
-// Save data
+
+
+
+//guardar datos
 const save_data = {
-    type: jsPsychPipe,
-    action: "save",
-    experiment_id: "h77dw1EeWtUq",
-    filename: `${rand_subject_id}.csv`,
-    data_string: ()=>jsPsych.data.get().csv()
-};
-    
+                type: jsPsychPipe,
+                action: "save",
+                experiment_id: "BnxI3oo9iOH5",
+                filename: `${rand_subject_id}.csv`,
+                data_string: ()=>jsPsych.data.get().csv()
+              };
     
 // Combine all blocks into the timeline
 
